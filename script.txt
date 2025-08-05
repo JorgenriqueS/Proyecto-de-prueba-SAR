@@ -1,0 +1,16 @@
+echo "#1. Mostrar directorio actual"
+pwd
+
+echo -e "\n#2. Listar archivos y carpetas en el directorio actual"
+ls -lah
+
+echo -e "\n#3. Mostrar el nombre del usuario actual"
+whoami
+
+echo -e "\n#4. Mostrar contenido de un archivo"
+cat ./texto.txt
+
+echo -e "\n#7. Hacer ping a google.com (4 paquetes)"
+ping -c 4 google.com
+
+echo -e "\n¡Script completado!"
