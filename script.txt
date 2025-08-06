@@ -14,3 +14,4 @@ echo -e "\n#7. Hacer ping a google.com (4 paquetes)"
 ping -c 4 google.com
 
 echo -e "\n¡Script completado!"
+echo 'Hola mundo'
